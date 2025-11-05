@@ -1,9 +1,10 @@
 import React from 'react';
-import { FaCctv, FaWater, FaWrench, FaTractor } from 'react-icons/fa';
+import { FaWater, FaWrench, FaTractor } from 'react-icons/fa';
+import Camera from '@mui/icons-material/Camera';
 
 const ServiceHighlights = () => {
   const services = [
-    { name: 'CCTV Installation', description: 'Secure your property with our expert CCTV services.', icon: <FaCctv size={48} className="text-industrial-blue mb-4" /> },
+    { name: 'CCTV Installation', description: 'Secure your property with our expert CCTV services.', icon: <Camera style={{ fontSize: 48, color: '#00447C' }} className="mb-4" /> },
     { name: 'Irrigation Services', description: 'Efficient water management for your gardens and farms.', icon: <FaWater size={48} className="text-industrial-blue mb-4" /> },
     { name: 'Pump Services', description: 'Reliable pump installation and maintenance.', icon: <FaWrench size={48} className="text-industrial-blue mb-4" /> },
     { name: 'Agricultural Machinery', description: 'Top-quality machinery for modern farming.', icon: <FaTractor size={48} className="text-industrial-blue mb-4" /> },
